@@ -1,11 +1,8 @@
 # prueba-softka
 #  Pasos a instalar:
-1.- Ejecutar docker-compose.yaml (docker-compose up -d)
+1.- Ubicarse en el directorio en donde se encuentra todos los archivos
 
-2.- Ejecutar microservicios-eureka
+2.- Crear la red:  docker network create mi_red
 
-3.- Ejecutar microservicio-usurios
+3.- Ejecutar docker-compose.yaml (docker-compose up -d)
 
-4.- Ejecutar microservicio-cartera
-
-5.- Ejecutar microservicio-zuul

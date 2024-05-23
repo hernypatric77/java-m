@@ -1,6 +1,5 @@
 package com.formacionbdi.microservicios.app.usuarios.controllers;
 
-import com.formacionbdi.microservicios.app.usuarios.dto.ReporteRequest;
 import com.formacionbdi.microservicios.app.usuarios.models.entity.Cuenta;
 import com.formacionbdi.microservicios.app.usuarios.services.CuentaService;
 import org.springframework.http.HttpStatus;
@@ -11,7 +10,7 @@ import com.prueba.her.commons.controller.CommonController;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("cuenta")
+@RequestMapping("/")
 public class CuentaController extends CommonController<Cuenta, CuentaService>{
 
 

@@ -8,7 +8,7 @@ import jakarta.persistence.*;
 import lombok.Data;
 
 @Entity
-@Table(name = "persona")
+@Table(name = "movimiento")
 @Data
 public class Movimiento {
 
@@ -21,7 +21,7 @@ public class Movimiento {
 	private BigDecimal valor;
 	private BigDecimal saldo;
 	@ManyToOne
-	@JoinColumn(name = "id_cuenta")
+	@JoinColumn(name = "cuenta_id")
 	private Cuenta cuenta;
 	@Column(name = "create_at")
 	@Temporal(TemporalType.TIMESTAMP)
